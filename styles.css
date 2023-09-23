@@ -1,8 +1,83 @@
 body {
-    margin: 0;
+    margin-top: 0px;
     text-align: center;
 }
 
-img {
-    width: 200px;
+.header{
+    background-image: url(images/brno.jpg);
+    width: 920px;
+    height: 330px;
+    padding: 100px;
+    color: #FFF;  
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 920px;
+    margin: auto;
 }
+
+#visit{
+    background-color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 42px;
+    width: 225px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;  
+}
+
+#enjoy{
+    background-color: #457B9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    height: 52px;
+    width: 412px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 0px;
+}
+
+#top3{
+    color: #1D3557;
+    background-color: #F1FAEE;
+    max-width: 920px;
+    max-height: 430px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight:bold;
+    font-size: 30px;
+    
+}
+
+ .activities-box{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: start;
+     width: 920px;
+     margin:auto;
+     margin-top: -40px;
+     padding: 30px 0px;
+     background: #F1FAEE;
+     color: #1D3557;
+     padding: 100px;
+ }
+ .activity{
+     width: 200px;
+ }
+ .activity-img{
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+      }
